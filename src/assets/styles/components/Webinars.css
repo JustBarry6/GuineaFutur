@@ -1,0 +1,37 @@
+.webinars {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+  }
+  
+  .card h4 {
+    margin: 0;
+  }
+  
+  .card p {
+    margin-top: 5px;
+    color: #666;
+  }
+  

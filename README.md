@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# GuineaFutur
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+**GuineaFutur** est une plateforme de gouvernance collaborative conçue pour améliorer la transparence, l'interaction et l'innovation entre le gouvernement de Guinée et ses citoyens. Elle utilise des technologies avancées telles que l'IA, la blockchain et l'analyse de données pour favoriser le développement et la mise en œuvre des propositions visant le progrès national.
 
-## Available Scripts
+## Table des matières
+- [Description](#description)
+- [Fonctionnalités](#fonctionnalités)
+- [Technologies Utilisées](#technologies-utilisées)
+- [Installation](#installation)
+- [Utilisation](#utilisation)
+- [Contribuer](#contribuer)
+- [Licence](#licence)
+- [Contact](#contact)
 
-In the project directory, you can run:
+## Fonctionnalités
+- **Évaluation des Propositions par IA** : Utilise l'IA pour analyser et fournir des recommandations sur les propositions soumises par les citoyens.
+- **Transparence par Blockchain** : Enregistre les propositions et les actions gouvernementales sur une blockchain publique pour une transparence totale.
+- **Tableaux de Bord Interactifs** : Suivi en temps réel des propositions et des projets à travers des tableaux de bord interactifs.
+- **Ressources Éducatives** : Offre des ressources sur la gouvernance, l'économie, l'écologie, et plus encore pour éduquer la population.
+- **Outils de Collaboration** : Facilite les partenariats internationaux et les contributions de la diaspora guinéenne et des partenaires mondiaux.
 
-### `npm start`
+## Technologies Utilisées
+- **Frontend** : React, Chart.js
+- **Backend** : Node.js, Express
+- **Blockchain** : Ethereum, Solidity, Web3.js, Truffle, Ganache
+- **Styling** : CSS, Bootstrap
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
+Pour exécuter ce projet localement, suivez ces étapes :
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Cloner le dépôt**
+    ```bash
+    git clone https://github.com/votreutilisateur/GuineaFutur.git
+    cd GuineaFutur
+    ```
 
-### `npm test`
+2. **Installer les dépendances**
+    ```bash
+    npm install
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Lancer le serveur de développement**
+    ```bash
+    npm start
+    ```
 
-### `npm run build`
+4. **Déployer le contrat intelligent**
+    - Accédez au répertoire `guinea-futur-contracts`.
+    - Installez Truffle globalement si ce n'est pas déjà fait :
+        ```bash
+        npm install -g truffle
+        ```
+    - Compilez et déployez le contrat :
+        ```bash
+        truffle migrate --reset
+        ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Utilisation
+- **Tableau de Bord** : Suivi en temps réel des propositions et des projets.
+- **Soumettre des Propositions** : Les citoyens peuvent soumettre leurs propositions via le formulaire.
+- **Analytique** : Fournit des insights sur les taux d'approbation des propositions et les délais de traitement.
+- **Éducation** : Offre des ressources et des matériels éducatifs sur la gouvernance et le développement.
+- **Collaboration** : Facilite la collaboration internationale et les contributions.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contribuer
+Les contributions sont les bienvenues ! Pour contribuer :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Forkez le dépôt.
+2. Créez une nouvelle branche.
+    ```bash
+    git checkout -b feature-branch
+    ```
+3. Apportez vos modifications et validez-les.
+    ```bash
+    git commit -m "Ajouter une nouvelle fonctionnalité"
+    ```
+4. Poussez la branche.
+    ```bash
+    git push origin feature-branch
+    ```
+5. Créez une pull request.
 
-### `npm run eject`
+## Licence
+Ce projet est sous licence MIT.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+Pour toutes questions ou retours, veuillez contacter :
+- **Email** : votrenom@example.com
+- **GitHub** : [votreutilisateur](https://github.com/votreutilisateur)

@@ -1,0 +1,57 @@
+.header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .header:hover {
+    background-color: #111;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .header nav ul li {
+    position: relative;
+  }
+  
+  .header nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: color 0.3s ease;
+  }
+  
+  .header nav ul li a:hover {
+    color: #3498db;
+  }
+  
+  .header nav ul li::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #3498db;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s ease;
+  }
+  
+  .header nav ul li:hover::after {
+    width: 100%;
+  }
+  

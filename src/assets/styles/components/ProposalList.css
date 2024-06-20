@@ -1,0 +1,54 @@
+.proposal-list {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  
+  .proposal-list h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    color: #3498db;
+    margin-bottom: 20px;
+  }
+  
+  .proposal-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .proposal-list li {
+    background-color: #2c2c2c;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .proposal-list li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .proposal-list h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .proposal-list p {
+    font-size: 1rem;
+    color: #b3b3b3;
+    margin-bottom: 10px;
+  }
+  
+  .proposal-list a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .proposal-list a:hover {
+    text-decoration: underline;
+  }
+  
